@@ -13,7 +13,7 @@ struct ContentView: View {
             VStack {
                 Text("This is the root view!")
                     .font(.title)
-                    .padding(20)
+                    .padding(30)
                 NavigationLink(destination: SecondView()) {
                     Text("Click me")
                         .bold()
